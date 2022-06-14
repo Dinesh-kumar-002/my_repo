@@ -16,7 +16,8 @@ body{
 	justify-content: space-between;
 }
 .navi h1{
-	margin-left: 40px;
+    position: relative;
+    right: 110px;
 }
 .navi ul{
 	padding-right: 40px;
@@ -31,12 +32,17 @@ body{
 	text-decoration: none;
 	color: white;
 }
+.navi img{
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+    
+}
 .button{
-	border-style: solid;
-	border-radius: 3px;
-	border-width: 1px;
+
+	
 	background-color: transparent;
-	padding: 5px 30px;
+	
 	text-decoration: none;
 	color: white;
 	position: relative;
@@ -45,5 +51,5 @@ body{
 .navi ul li a{
     border-style: solid;
     border-width: 1px;
-    padding: 18px 36px;
+    padding: 10px 34px;
 }
