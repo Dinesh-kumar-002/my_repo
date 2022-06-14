@@ -1,0 +1,44 @@
+*{
+	
+	font-family: sans-serif;
+
+}
+body{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.navi{
+	background-color: black;
+	color: white;
+	display: flex;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+.navi h1{
+	margin-left: 40px;
+}
+.navi ul{
+	padding-right: 40px;
+	display: flex;
+}
+.navi ul li{
+	margin-right: 20px;
+	padding-right: 10px;
+	list-style: none;
+}
+.navi ul li a{
+	text-decoration: none;
+	color: white;
+}
+.button{
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	background-color: transparent;
+	padding: 5px 30px;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	bottom: 5px;
+}
