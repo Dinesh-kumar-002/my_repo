@@ -9,4 +9,4 @@ I'm beginner and I'm learning...
 
 💞️ I’m looking to collaborate on web development
 
-📫 How to reach me e-mail: dineshkumar812002@gmail.com
+📫 How to reach me e-mail: dineshkumar8.1.2002@gmail.com
