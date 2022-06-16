@@ -1,15 +1,16 @@
+ 
 *{
 	
     box-sizing: border-box;
-	
+	font-family: sans-serif;
+    font-family: 'Combo', cursive,'Josefin Sans', sans-serif,'Shizuru', cursive;
+
 }
 body{
-    background-color: rgb(123, 47, 230);
-    font-family: sans-serif;
+    background-image: linear-gradient(rgb(126, 126, 219),rgb(21, 96, 216));
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
     height: 100vh;
     overflow: hidden;
 
@@ -25,14 +26,15 @@ body{
 .header{
     box-shadow: ;
     background-color: transparent;
-    padding: 30px;
+    padding: 10px;
     background-color: rgb(224, 210, 237);
     
 }
 .header h1{
     text-align: center;
+    font-weight: 900;
     color: rgb(123, 47, 230);
-    font-family: 'Courier New', Courier, monospace;
+    
     
 }
 .form{
@@ -49,33 +51,48 @@ body{
 }
 .form-list label{
    display: inline-block;
-   padding-bottom: 10px;
+   padding-bottom: 4px;
+   margin:0;
    color: rgb(134, 57, 228);
    font-weight: bold;
-   font-family: 'Courier New', Courier, monospace;
+   
     
 }
 .form-list input{
     display: block;
     border-radius: 3px;
-   border-color: rgb(181, 160, 201);
+   border-color: rgb(211, 197, 224);
    margin-bottom: 5px;
    padding:  7px;
+   border-style: dashed;
    width: 100%;
+   
+}
+.form-list input:hover{
+    border-color: rgb(140, 88, 200);
+
 }
 .form-list input:focus{
-    border-color: rgb(185, 150, 222);
+    border-color: rgb(89, 43, 139);
+   
+    border-style: dotted;
 }
 button{
     padding: 8px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
-    font-weight: bold;
+    font-weight: 800;
     color: rgb(87, 32, 138);
     border-radius:5px;
     border-width: 0.4px;
     border-color: transparent;
     background-color:rgb(181, 160, 201);
     
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
 }
 button:focus{
     background-color: blueviolet;
