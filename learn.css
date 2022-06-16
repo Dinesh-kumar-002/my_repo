@@ -20,14 +20,16 @@ body{
    border-radius: 5px;
    box-shadow: -10px 10px 35px black;
    overflow: hidden;
-   width: 350px;
+   width: 400px;
+   
 
 }
 .header{
-    box-shadow: ;
+   
     background-color: transparent;
     padding: 10px;
     background-color: rgb(224, 210, 237);
+    
     
 }
 .header h1{
@@ -63,9 +65,10 @@ body{
     border-radius: 3px;
    border-color: rgb(211, 197, 224);
    margin-bottom: 5px;
-   padding:  7px;
-   border-style: dashed;
+   padding:7px;
+   border-style: dotted;
    width: 100%;
+   color:rgb(148, 91, 200);
    
 }
 .form-list input:hover{
@@ -74,8 +77,7 @@ body{
 }
 .form-list input:focus{
     border-color: rgb(89, 43, 139);
-   
-    border-style: dotted;
+    border-style: dotted 1px black;
 }
 button{
     padding: 8px 20px;
